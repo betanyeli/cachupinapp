@@ -5,7 +5,9 @@
   "scripts": {
     "start": "nx serve",
     "build": "nx build",
-    "test": "nx test"
+    "test": "nx test",
+    "ios": "nx run-ios cachupinapp",
+    "android": "nx run-android cachupinapp"
   },
   "private": true,
   "dependencies": {
@@ -34,6 +36,7 @@
     "@types/node": "16.11.7",
     "@types/react": "18.0.20",
     "@types/react-native": "0.70.3",
+    "@types/testing-library__jest-dom": "^5.14.5",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",
     "babel-jest": "28.1.1",
